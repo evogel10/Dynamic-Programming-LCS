@@ -1,0 +1,40 @@
+Pair 1
+Sequence 1: ACCGGTCGACTGCGCGGAAGCCGGCCGAA
+Sequence 2: GTCGTTCGGAATGCCGTTGCTCTGTAAA
+Longest Common Subsequence: GTCGTCGGAAGCCGGCCGAA
+Sequence Length: 20
+
+Pair 2
+Sequence 1: ATTGCATTGCATGGGCGCGATGCATTTGGTTAATTCCTCG
+Sequence 2: CTTGCTTAAATGTGCA
+Longest Common Subsequence: TTGCTTATGTGCA
+Sequence Length: 13
+
+Pair 3
+Sequence 1: AGCGATCGATAGTCAGTCCCGATAGCGATGCCGATAAGCTCCGGGCTGCAATATATATCGCGCGCGAGCTGACATGACGTAGCACAGT
+Sequence 2: ACAGAGGGATAGACAACAGATAATATAGACACAGAGACAGATGAGGATTAAGGACCCGCGTGCGTAGACGTAGCAGATGACAGATGAC
+Longest Common Subsequence: ACGAGATAGCACGATAATGCCGAAAGTGGGTTAAACGCGGCGAGCTGAATGACGTGAC
+Sequence Length: 58
+
+Pair 4
+Sequence 1: TTCGGAACAA
+Sequence 2: CCGGAGAGTA
+Longest Common Subsequence: CGGAAA
+Sequence Length: 6
+
+One sequence left. No additional sequences to compare to: AAGAATCCGCGCGTGATATATGCGCGC
+
+-------------------------Algorithm Running Time---------------------------
+Pair Number     Pair Lengths         Algorithm          Time In Nanosecond
+  Pair  1          29, 28        Dynamic Programing           411122
+  Pair  2          40, 16        Dynamic Programing           244981
+  Pair  3          88, 88        Dynamic Programing           1492232
+  Pair  4          10, 10        Dynamic Programing           55456
+
+Invalid Input(s)
+----------------
+S7 = CTTAGGATACFFFECEETTGA
+S8 AAGGCTTAGC
+S9 = 123456789
+S10 = %%%---$$$
+#$#@#@$%
